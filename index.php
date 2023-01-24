@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Badwords</title>
 </head>
-
 <body>
     <main>
-        <form action="badwords.php">
-            <input type="text" name="paragraph" placeholder="Inserisci il tuo paragrafo">
+        <form action="badwords.php" method="POST">
+            <input type="text-area" name="paragraph" placeholder="Inserisci il tuo paragrafo">
             <input type="text" name="censureWord" placeholder="Inserisci parola da censurare">
             <button>Send</button>
-        </main>
+        </form>
+    </main>
 </body>
-
 </html>
